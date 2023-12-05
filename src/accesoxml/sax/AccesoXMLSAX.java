@@ -15,8 +15,6 @@ public class AccesoXMLSAX{
         int opc;
         File f = new File("books.xml");
         AccesoSAX a = new AccesoSAX();
-        //a.parsearXMLconLibrosSAXhandler(f);
-        //a.parsearXMLconTitulosSAXhandler(f,1); 
         do
         {
             System.out.println("Que accion quieres realizar");

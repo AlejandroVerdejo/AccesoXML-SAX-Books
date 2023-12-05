@@ -7,7 +7,7 @@ import javax.xml.parsers.SAXParserFactory;
 public class AccesoSAX {
     
     SAXParser parser;
-    
+    //Para mostrar todos los libros del XML
     public int parsearXMLconLibrosSAXhandler(File f)
     {
         try
@@ -24,6 +24,7 @@ public class AccesoSAX {
             return -1;
         }
     }
+    //Para mostrar todas las apariciones de una etiqueta en el XML
     public int parsearXMLporEtiquetasSAXhandler(File f,int obj)
     {
         try
